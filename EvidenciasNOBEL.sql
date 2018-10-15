@@ -25,10 +25,24 @@ AND yr >= 2000
 
 
 -- #05.- Show all details (yr, subject, winner) of the Literature prize winners for 1980 to 1989 inclusive.
+SELECT *
+FROM nobel
+WHERE subject = 'Literature'
+AND yr BETWEEN 1980 AND 1989
+
 
 -- #06.- Show all details of the presidential winners:
-
+SELECT *
+FROM nobel
+WHERE winner IN ('Theodore Roosevelt', 'Woodrow Wilson', 'Jimmy Carter',
+  'Barack Obama')
+  
+  
 -- #07.- Show the winners with first name John
+SELECT winner
+FROM nobel
+WHERE winner LIKE 'John%'
+
 
 -- #08.- Show the year, subject, and name of Physics winners for 1980 together with the Chemistry winners for 1984.
 
