@@ -59,7 +59,7 @@ WHERE yr = 1980 AND subject <> 'Chemistry' AND subject <> 'Medicine';
 
 -- #11.- Find all details of the prize won by PETER GRÜNBERG
 
--- #12.- Find all details of the prize won by EUGENE O'NEILL
+#-- 12.- Find all details of the prize won by EUGENE O'NEILL
 
 -- #13.- List the winners, year and subject where the winner starts with Sir. Show the the most recent first, then by name order.
 
