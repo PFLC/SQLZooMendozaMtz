@@ -1,5 +1,5 @@
 # “SQLZOO - Evidencias”
-Hecho por: Mendoza Martinez Catherine
+## Hecho por: Mendoza Martinez Catherine
 
 ## SELECT BASICS
 Modify it to show the population of Germany
