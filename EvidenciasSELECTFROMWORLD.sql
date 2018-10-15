@@ -35,7 +35,7 @@ SELECT name, population, area from world
 WHERE population>250000000 or area >3000000
 
 
--- #08.- Exclusive OR (XOR). Show the countries that are big by area or big by population but not both. Show name, population and area.
+-- #08.- Show name, population and area.
 
 
 -- #09.- For South America show population in millions and GDP in billions both to 2 decimal places.
@@ -54,7 +54,7 @@ SELECT name, ROUND(gdp/population,-3)
 
 -- #11.- Show the name and capital where the name and the capital have the same number of characters.
 
--- #12.- Show the name and the capital where the first letters of each match. Don't include countries where the name and the capital are the same word.
+-- #12.- Show the name and the capital where the first letters of each match.
 
 -- #13.- Find the country that has all the vowels and no spaces in its name.
 
