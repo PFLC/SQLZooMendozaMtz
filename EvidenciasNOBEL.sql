@@ -66,7 +66,7 @@ SELECT * FROM nobel
 WHERE winner = 'PETER GRÜNBERG'
 
 
-# -- 12.- Find all details of the prize won by EUGENE O'NEILL
+#-- 12.- Find all details of the prize won by EUGENE O'NEILL
 SELECT * FROM nobel
 WHERE winner = 'EUGENE O''NEILL'
 
