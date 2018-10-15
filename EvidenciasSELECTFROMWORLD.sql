@@ -36,6 +36,8 @@ WHERE population>250000000 or area >3000000
 
 
 -- #08.- Show name, population and area.
+SELECT name, population, area from world
+WHERE area > 3000000 XOR population > 250000000
 
 
 -- #09.- For South America show population in millions and GDP in billions both to 2 decimal places.
@@ -53,8 +55,17 @@ SELECT name, ROUND(gdp/population,-3)
 
 
 -- #11.- Show the name and capital where the name and the capital have the same number of characters.
+SELECT name, capital FROM world
+WHERE LENGTH(name) = LENGTH(capital);
+
 
 -- #12.- Show the name and the capital where the first letters of each match.
+SELECT name, capital FROM world
+WHERE LEFT(name, 1) = LEFT(capital, 1) XOR name = capital
+
 
 -- #13.- Find the country that has all the vowels and no spaces in its name.
+SELECT name FROM world
+WHERE name LIKE '%a%' AND name LIKE '%e%' AND name LIKE '%i%' AND name LIKE '%o%' AND name LIKE '%u%' AND name NOT LIKE '% %'
+
 
